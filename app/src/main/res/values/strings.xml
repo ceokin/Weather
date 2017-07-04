@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <!--navigation-->
+    <string name="menu_weather">Weather</string>
+    <string name="menu_pictures">Pictures</string>
+    <string name="menu_contact">Contact us</string>
+    <string name="menu_record">Record</string>
+    <string name="menu_zona_app">ZonaApp</string>
+    <string name="action_position">Position</string>
+
+    <!--weather fragment-->
+    <string name="search_town">Enter a town</string>
+    <string name="search_button">Search</string>
+    <string name="sanday">Sanday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <!--photo fragment-->
+    <string name="choose_place">Choose a place</string>
+
+    <!--record fragment -->
+    <string name="record_searches">Record of places</string>
+
+    <!--Google-->
+    <string name="no_location_detected">No location
+    detected. Make sure location is enabled on the device.</string>
+
+    <!--Errors-->
+    <string name="loading_message">Loading …</string>
+    <string name="error_icon_description">An error occured</string>
+    <string name="error_message">Error in uploading data</string>
+    <string name="no_pictures_message">No photo of this place has been found</string>
+
+</resources>

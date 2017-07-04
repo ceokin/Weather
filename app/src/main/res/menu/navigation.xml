@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/weather_navigation"
+        android:icon="@drawable/ic_menu_weather"
+        app:showAsAction="always"
+        android:title="@string/menu_weather"/>
+
+    <item
+        android:id="@+id/pictures_navigation"
+        android:icon="@drawable/ic_menu_pictures"
+        app:showAsAction="always"
+        android:title="@string/menu_pictures"/>
+
+    <item
+        android:id="@+id/record_navigation"
+        android:icon="@drawable/ic_menu_record"
+        app:showAsAction="always"
+        android:title="@string/menu_record"/>
+
+    <item
+        android:id="@+id/contact_navigation"
+        android:icon="@drawable/ic_menu_contact"
+        app:showAsAction="always"
+        android:title="@string/menu_contact"/>
+</menu>
