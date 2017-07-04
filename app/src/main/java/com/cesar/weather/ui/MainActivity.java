@@ -215,18 +215,23 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     @Override
     public void onPositionActionBarWeather() {
-        if (!googleApiClient.isConnected()){
+        if (googleApiClient == null){
+            buildGoogleApiClient();
             googleApiClient.connect();
-        }
-        Location location = getLocation();
+        }else{
+            if (!googleApiClient.isConnected()){
+                googleApiClient.connect();
+            }
+            Location location = getLocation();
 
-        if (location != null) {
-            double lon = location.getLongitude();
-            double lat = location.getLatitude();
+            if (location != null) {
+                double lon = location.getLongitude();
+                double lat = location.getLatitude();
 
-            updateDataByCoor(String.valueOf(lat), String.valueOf(lon));
-        } else {
-           weatherFragment.showErroLocation();
+                updateDataByCoor(String.valueOf(lat), String.valueOf(lon));
+            } else {
+                weatherFragment.showErroLocation();
+            }
         }
     }
 

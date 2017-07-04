@@ -122,7 +122,7 @@ public class WeatherItemViewHolder extends RecyclerView.ViewHolder {
                 iconImageView.setImageResource(R.drawable.forecast_50);
                 break;
             default:
-                throw new IllegalArgumentException("Invalid forecast icon: " + name);
+
         }
     }
 }
